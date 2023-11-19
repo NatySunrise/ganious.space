@@ -111,6 +111,9 @@ color: var(--color-brand-dark);
 .traditions-section__title{
   margin-bottom: 42px;
 }
+.traditions-section__text{
+  margin-bottom: 42px;
+}
 .traditions-text .brand {
   color: var(--color-brand-light);
   font-weight: 600;
@@ -135,6 +138,9 @@ color: var(--color-brand-dark);
   font-weight: 600;
   margin-bottom: 16px;
 }
+.chef-card__text{
+  margin-bottom: 16px;
+}
 .chefs-section__title{
   margin-bottom: 80px;
 }
@@ -145,6 +151,7 @@ color: var(--color-brand-dark);
 .format-card__title{
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 16px;
 }
 .format-card__text{
   font-weight: 300;
@@ -159,6 +166,20 @@ color: var(--color-brand-dark);
   max-width: 603;
   width: 100%;
 }
+.contact-section-text{
+  margin-bottom: 42px;
+}
+.contact-section__form-field{
+  margin-bottom: 24px;
+}
+.input__control{
+  width: 521px;
+  height: 23px;
+  padding: 16px 42px;
+}
+.contact-section__button{
+  margin-bottom: 16px;
+}
 
 /* Footer */
 .footer__address-link{
@@ -172,4 +193,10 @@ color: var(--color-brand-dark);
 }
 .footer__address-copyright{
   font-size: 14px;
+}
+.link{
+  margin-bottom: 16px;
+}
+.footer__address-link{
+  margin-bottom: 16px;
 }
