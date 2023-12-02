@@ -197,7 +197,7 @@ address {
 .chefs-section__title::after {
   display: block;
   width: 352px;
-  border: 2px solid var(--color-primary-light);
+  border: 2px solid var(--color-brand-light);
   content: "";
 }
 .chef-card__text {
@@ -214,7 +214,23 @@ address {
 }
 
 /* Formats section */
-
+.formats-section__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background-color: transparent;
+  fill: var(--color-primary-dark);
+  border-radius: 50%;
+  border: 1px solid var(--color-primary-dark);
+  cursor: pointer;
+}
+.formats-section__button:hover {
+  background-color: var(--color-primary-dark);
+  fill: var(--color-brand-light);
+}
 .formats-section__list {
   display: flex;
   flex-wrap: wrap;
@@ -295,4 +311,11 @@ address {
 }
 .footer__address-link {
   margin-bottom: 16px;
+}
+.footer__socials-icon {
+  fill: var(--color-primary-light); /*ця властивість додає колір для значків*/
+  /*stroke для значків робить обводку*/
+}
+.footer__socials-icon:hover {
+  fill: var(--color-brand-normal);
 }
