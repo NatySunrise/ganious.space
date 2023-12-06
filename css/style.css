@@ -94,6 +94,12 @@ address {
   color: var(--color-brand-dark);
   background-color: var(--color-primary-light);
 }
+/* .button-modal-open:disabled {
+  color: gray;
+  background-color: lightgrey;
+  border-color: currentColor;
+  cursor: not-allowed;
+} */
 
 /*links*/
 a {

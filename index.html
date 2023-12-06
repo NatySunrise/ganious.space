@@ -365,19 +365,21 @@
     </div>
   </footer>
   
-  <!-- <div class="backdrop">
+  <div class="backdrop">
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
       <h2 class="form-text">Замовити дзвінок</h2>
       <p class="form-text">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
-      <form name="modal-form" autocomplete="off" novalidate>
+      <form name="modal-form" autocomplete="off">
         <div class="form-field">
           <label class="input__label visually-hidden" for="user-name">Ім'я</label>
           <input class="input__control" 
             type="text" 
             id="user-name"
             name="user-name"
-            placeholder="Ім'я"> підказка
+            placeholder="Ім'я" 
+            minlength="3"
+            maxlength="20">
         </div>
 
         <div class="form-field">
@@ -386,7 +388,10 @@
             type="tel"
             id="user-tel"
             name="user-tel"
-            placeholder="Телефон">
+            placeholder="Телефон"
+            minlength="3"
+            maxlength="20"
+            pattern="^\+[0-9]{12}">
         </div>
 
         <div class="form-field">
@@ -395,13 +400,15 @@
           type="email" 
           id="user-email" 
           name="user-email"
-          placeholder="Електронна пошта">
+          placeholder="Електронна пошта"
+          minlength="3"
+          maxlength="20">
         </div>
-        <button class="button-modal-open form-button" type="submit">Замовити дзвінок</button>
+        <button class="button-modal-open form-button" type="submit" >Замовити дзвінок</button>
         <p class="form-terms">Натискаючи на кнопку я погоджуюсь з <a class="form-terms-link" href="#">політикою конфіденційності</a></p>
       </form>
     </div>
-  </div> -->
+  </div>
   
  <script type="module" src="./js/modal.js"></script>
 </body>
